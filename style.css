@@ -1,28 +1,83 @@
 * {
     box-sizing: border-box;
+    color: white;
+    margin: none;
+    padding: none;
 }
 
 body {
-    background-color: aqua;
+    background-color: hsl(0, 100%, 74%);
+    background-image: url("images/bg-intro-desktop.png");
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .text {
-    width: 300px;
-    height: 300px;
-    background-color: red;
+    width: 375px;
+    /* background-color: red; */
     margin-left: auto;
     margin-right: auto;
+    text-align: center;
+    padding: 30px;
+    line-height: 1.3;
+}
+
+.form-container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    border-radius: 6px;
+}
+
+
+.form-container input {
+    width: 100%;
+    padding: 10px;
+    margin: 6px 0;
+    border: 1px solid black;
+    border-radius: 3px;
 }
 
 .form {
-    margin-left: auto;
-    margin-right: auto;
-    width: 300px;
-    height: 300px;
     background-color: white;
     padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 6px;
+    margin-top: 20px;
+    text-align: center;
 }
 
-.form input {
+.trial {
+    background-color: blue;
+    padding: 10px;
     width: 100%;
+    border-radius: 6px;
+    margin-top: 10px;
+    font-size: 12px;
+    text-align: center;
+    height: 60px;
+}
+
+#claim {
+    width: 100%;
+    background-color: green;
+    height: 50px;
+    margin: 10px 0;
+    border-radius: 6px;
+    border: none;
+    font-size: 16px;
+}
+.form p {
+    color: black;
+    font-size: 12px;
+}
+
+.form a {
+    color: red;
+    display: block;
+    text-decoration: none;
 }
