@@ -90,3 +90,20 @@ body {
     font-weight: bold;
     line-height: 1.5;
 }
+
+@media(min-width: 600px) {
+    .container {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 100px;
+    }
+
+    .form-container {
+        width: 40%;
+    }
+
+    .text {
+        width: 35%;
+        text-align: left;
+    }
+}
